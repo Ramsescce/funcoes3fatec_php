@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+</head>
+
+<body>
+
+    <form class="row g-3" action=exe11.php method="POST">
+        <fieldset class="border p-2 ">
+            <legend class="w-auto" id="class">Exercício 11</legend>
+
+            <h4>Crie um aplicativo (utilize formulário) de conversão entre as temperaturas Celsius e Farenheit.
+                Primeiro o usuário deve escolher se vai entrar com a temperatura em Célsius ou Farenheit, depois
+                a conversão escolhida é realizada através
+                de um comando SWITCH. Se C é a temperatura em Célsius e F em farenheit, as fórmulas de conversão
+                são: C= 5.(F-32)/9 F= (9.C/5) + 32</h4>
+
+            <h3> Celsius --> Farenheit escolha 1<br /> Farenheit --> Celsius escolha 2<br /></h3>
+
+            <select name="select" class="form-control " placeholder="Informe o nº da conversão" required>
+                <option selected>Selecione o numero para conversão de temperatura</option>
+                <option>1</option>
+                <option>2</option>
+            </select>
+
+            <h3>Digite a temperatura</h3>
+
+            <input type="recTemp" name="recTemp" placeholder="Digite aqui a temperatura" required>
+
+            <button type="submit">calcule</button>
+        </fieldset>
+    </form>
+    <p>
+    </p>
+    <form class="row g-3" action=exe12.php method="POST">
+        <fieldset class="border p-2 ">
+            <legend class="w-auto" id="class">Exercício 12</legend>
+
+            <h4>Uma professora, muito legal, fez 3 provas durante um semestre mas só vai levar em conta as duas
+                notas mais altas para calcular a média. Faça uma aplicação em PHP (utilize formulário) que peça
+                o valor das 3 notas, mostre como seria
+                a média com essas 3 provas, a média com as 2 notas mais altas, bem como sua nota mais alta e sua
+                nota mais baixa.
+            </h4>
+
+            Informe a primeira nota <input type="test1" name="test1" placeholder="Digite a nota" required>
+            &emsp;Informe a segunda nota <input type="test2" name="test2" placeholder="Digite a nota" required>
+            &emsp;Informe a terceira nota
+            <input type="test3" name="test3" placeholder="Digite a nota" required>
+
+            <button type="submit">calcule</button>
+
+        </fieldset>
+    </form>
+    <p>
+    </p>
+    <form class="row g-3" action=exe13.php method="POST">
+        <fieldset class="border p-2 ">
+            <legend class="w-auto" id="class">Exercício 13</legend>
+
+            <h4>Faça uma rotina recursiva para calcular a somatória de todos os número de 1 a N (N será lido do
+                teclado). Observação: se N é igual a 5 por exemplo, A somatória dos números será igual a 15, ou
+                seja, 1+2+3+4+5 = 15.</h4>
+
+            Informe um número <input type="number" name="number" placeholder="Insira um valor" required>
+
+            <button type="submit">calcule</button>
+
+        </fieldset>
+    </form>
+    <p>
+    </p>
+    <form class="row g-3" action=exe14.php method="POST">
+        <fieldset class="border p-2 ">
+            <legend class="w-auto" id="class">Exercício 14</legend>
+
+            <h4>Crie um programa em PHP que conte os dígitos de um determinado número usando recursão.
+                Observação: se o usuário inserir o número 250, a saída esperada deve ser : o número digitado tem
+                3 dígitos.</h4>
+
+            Informe o número <input type="number" name="number" placeholder="Insira um valor" required>
+
+            <button type="submit">calcule</button>
+
+        </fieldset>
+    </form>
+    <p>
+    </p>
+    <form class="row g-3" action=exe15.php method="POST">
+        <fieldset class="border p-2 ">
+            <legend class="w-auto" id="class">Exercício 15</legend>
+
+            <h4>Crie um programa que calcula o máximo divisor comum entre dois números usando a recursão.
+                Observação : Dois números naturais sempre têm divisores comuns. Assim, o máximo divisor comum
+                entre os dois é o maior de seus divisores. Exemplificando...os
+                divisores comuns de 12 e 18 são 1,2,3 e 6. Dentre eles, 6 é o maior. Então, chamamos o 6 de
+                máximo divisor comum de 12 e 18 e indicamos m.d.c.(12,18) = 6.</h4>
+
+            Digite o primeiro número inteiro<input type="number1" name="number1" placeholder="Digite um valor"
+                required>&emsp;Digite o segundo número inteiro<input type="num2" name="num2"
+                placeholder="Digite um valor" required>
+
+            <button type="submit">calcule</button>
+
+        </fieldset>
+    </form>
+    <p>
+    </p>
+    <form class="row g-3" action=exe16.php method="POST">
+        <fieldset class="border p-2 ">
+            <legend class="w-auto" id="class">Exercício 16</legend>
+
+            <h4>Faça uma rotina recursiva para o problema da Torre de Hanói. O problema da Torre de Hanói
+                consiste de três pinos, A, B e C, denominados : origem, destino e trabalho, respectivamente, e n
+                discos de diâmetros diferentes. Inicialmente,
+                todos os discos se encontram empilhados no pino origem, em ordem decrescente de tamanho, de
+                baixo para cima. O objetivo é empilhar todos os discos no pino destino, atendendo às seguintes
+                restrições Apenas um disco pode ser removido
+                de cada vez. Qualquer disco não pode ser jamais colocado sobre outro de tamanho menor.</h4>
+
+            Digite o número de discos<input type="discos" name="discos" placeholder="Número de discos" required>
+
+            <button type="submit">calcular</button>
+
+        </fieldset>
+    </form>
+    </div>
+
+</body>
+
+</html>
