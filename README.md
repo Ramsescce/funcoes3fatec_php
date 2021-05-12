@@ -1,7 +1,8 @@
 # funcoes3fatec_php
 16 exercícios de PHP para a prática de funções.
 Exercício - Funções em PHP
-Vence 27 de abril de 2021 23:59
+
+
 Instruções
 1.Crie uma função que receba um valor e informe se ele é positivo ou não.
 2.Crie uma função que receba um valor e diga se é nulo ou não.
